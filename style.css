@@ -1,0 +1,101 @@
+body {
+  background-image: url(Background\ Image.jpg);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-size: cover;
+  background-position: center;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+}
+header {
+  display: flex;
+  justify-content: center;
+  font-family: "inter", sans-serif;
+  margin-bottom: 100px;
+}
+
+.title-content {
+  display: flex;
+  align-items: flex-end;
+}
+.story-content {
+  position: relative;
+  max-width: 709px;
+  margin: auto;
+  text-align: justify;
+  font-size: 18px;
+  font-family: "inter", sans-serif;
+  border-bottom: 1.5px solid #333;
+  padding-bottom: 0.5em;
+  margin-bottom: 0.3em;
+}
+
+.title1 {
+  text-align: right;
+}
+
+.first {
+  max-width: 299px;
+  max-height: 262px;
+}
+
+.second {
+  max-width: 227px;
+  max-height: 120px;
+  float: left;
+  margin-right: 10px;
+}
+
+.third {
+  max-width: 222px;
+  max-height: 135px;
+  float: right;
+  transform: scaleX(-1);
+  margin-left: 20px;
+  margin-top: -10px;
+}
+
+.fourth {
+  max-width: 129px;
+  max-height: 123px;
+  float: left;
+}
+.fifth {
+  max-width: 130px;
+  max-height: 102px;
+  float: right;
+  position: absolute;
+  left: 320px;
+  top: 1677px;
+}
+
+h1 {
+  font-family: "inter", sans-serif;
+  border-bottom: 1.5px solid #333;
+  padding-bottom: 0.5em;
+  margin-bottom: 0.3em;
+  font-size: 48px;
+  max-width: 400px;
+}
+
+.subtitle {
+  font-size: 24px;
+}
+
+p {
+  text-indent: 15px;
+  margin-bottom: 40px;
+}
+
+.feather {
+  max-width: 17.52px;
+  max-height: 81.64px;
+  display: block;
+  margin: auto;
+  width: 50%;
+  margin-top: 30px;
+}
+footer {
+  text-align: center;
+  margin-top: 10px;
+}
